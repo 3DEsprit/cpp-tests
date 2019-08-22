@@ -23,8 +23,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B13CA7F230CCA0500997E0A /* ex2-2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ex2-2.cpp"; sourceTree = "<group>"; };
+		1B13CA80230CCA0500997E0A /* ex2-2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "ex2-2.hpp"; sourceTree = "<group>"; };
+		1B13CA81230CDD4000997E0A /* math.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = math.cpp; sourceTree = "<group>"; };
+		1B13CA82230CDD4000997E0A /* math.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = math.hpp; sourceTree = "<group>"; };
+		1B13CA83230CDF5400997E0A /* ex2-3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ex2-3.cpp"; sourceTree = "<group>"; };
 		1B35C1E022FE3502006CDC0A /* C++ Tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Tests"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B35C1E322FE3502006CDC0A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1B35C1EA22FE5CFD006CDC0A /* ex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex1.cpp; sourceTree = "<group>"; };
+		1B35C1ED22FE5F1D006CDC0A /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		1B35C1EE22FE601D006CDC0A /* ex2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex2.cpp; sourceTree = "<group>"; };
+		1B35C1F122FE60EF006CDC0A /* ex3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex3.cpp; sourceTree = "<group>"; };
+		1B35C1F32300F5B2006CDC0A /* notes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = notes.cpp; sourceTree = "<group>"; };
+		1B35C1F42300F5B2006CDC0A /* notes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = notes.hpp; sourceTree = "<group>"; };
+		1B35C1F62300FA61006CDC0A /* ex2-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ex2-1.cpp"; sourceTree = "<group>"; };
+		1B84E7E2230F203E00982E0F /* ex2-4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ex2-4.cpp"; sourceTree = "<group>"; };
+		1B84E7E3230F25C700982E0F /* ex2-5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ex2-5.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,20 @@
 			isa = PBXGroup;
 			children = (
 				1B35C1E322FE3502006CDC0A /* main.cpp */,
+				1B35C1ED22FE5F1D006CDC0A /* main.h */,
+				1B35C1EA22FE5CFD006CDC0A /* ex1.cpp */,
+				1B35C1EE22FE601D006CDC0A /* ex2.cpp */,
+				1B35C1F122FE60EF006CDC0A /* ex3.cpp */,
+				1B35C1F32300F5B2006CDC0A /* notes.cpp */,
+				1B35C1F42300F5B2006CDC0A /* notes.hpp */,
+				1B35C1F62300FA61006CDC0A /* ex2-1.cpp */,
+				1B13CA7F230CCA0500997E0A /* ex2-2.cpp */,
+				1B84E7E2230F203E00982E0F /* ex2-4.cpp */,
+				1B13CA80230CCA0500997E0A /* ex2-2.hpp */,
+				1B13CA83230CDF5400997E0A /* ex2-3.cpp */,
+				1B84E7E3230F25C700982E0F /* ex2-5.cpp */,
+				1B13CA81230CDD4000997E0A /* math.cpp */,
+				1B13CA82230CDD4000997E0A /* math.hpp */,
 			);
 			path = "C++ Tests";
 			sourceTree = "<group>";
