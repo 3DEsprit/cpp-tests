@@ -6,7 +6,7 @@
 //  Copyright © 2019 Dennis. All rights reserved.
 //
 
-#include "bitwise-font-style.hpp"
+#include <stdio.h>
 
 int fontstyle() {
     // bitwise
