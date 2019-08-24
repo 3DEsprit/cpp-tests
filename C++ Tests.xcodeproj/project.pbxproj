@@ -39,6 +39,22 @@
 		1B35C1F62300FA61006CDC0A /* ex2-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ex2-1.cpp"; sourceTree = "<group>"; };
 		1B84E7E2230F203E00982E0F /* ex2-4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ex2-4.cpp"; sourceTree = "<group>"; };
 		1B84E7E3230F25C700982E0F /* ex2-5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ex2-5.cpp"; sourceTree = "<group>"; };
+		1B84E7E5230F335C00982E0F /* ch2exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2exercise1.cpp; sourceTree = "<group>"; };
+		1B84E7E6230F335C00982E0F /* ch2exercise1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch2exercise1.hpp; sourceTree = "<group>"; };
+		1B84E7EC230F359600982E0F /* ch2exercise2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2exercise2.cpp; sourceTree = "<group>"; };
+		1B84E7ED230F359600982E0F /* ch2exercise2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch2exercise2.hpp; sourceTree = "<group>"; };
+		1B84E7EE230F35A100982E0F /* ch2exercise3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2exercise3.cpp; sourceTree = "<group>"; };
+		1B84E7EF230F35A100982E0F /* ch2exercise3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch2exercise3.hpp; sourceTree = "<group>"; };
+		1B84E7F1230F35CF00982E0F /* ch2exercise4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2exercise4.cpp; sourceTree = "<group>"; };
+		1B84E7F2230F35CF00982E0F /* ch2exercise4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch2exercise4.hpp; sourceTree = "<group>"; };
+		1B84E7F3230F383200982E0F /* ch2exercise5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2exercise5.cpp; sourceTree = "<group>"; };
+		1B84E7F4230F383200982E0F /* ch2exercise5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch2exercise5.hpp; sourceTree = "<group>"; };
+		1B84E7F5230F392500982E0F /* ch2exercise6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2exercise6.cpp; sourceTree = "<group>"; };
+		1B84E7F6230F392500982E0F /* ch2exercise6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch2exercise6.hpp; sourceTree = "<group>"; };
+		1BD98E0223109EB4002ABB73 /* bitwise-font-style.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "bitwise-font-style.cpp"; sourceTree = "<group>"; };
+		1BD98E0323109EB4002ABB73 /* bitwise-font-style.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "bitwise-font-style.hpp"; sourceTree = "<group>"; };
+		1BD98E042310ADC1002ABB73 /* Chapter3 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Chapter3; path = "C++ Tests/Chapter3"; sourceTree = "<group>"; };
+		1BD98E062310B04B002ABB73 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +71,9 @@
 		1B35C1D722FE3502006CDC0A = {
 			isa = PBXGroup;
 			children = (
+				1BD98E062310B04B002ABB73 /* README.md */,
+				1BD98E042310ADC1002ABB73 /* Chapter3 */,
+				1B84E7E8230F348800982E0F /* Chapter2 */,
 				1B35C1E222FE3502006CDC0A /* C++ Tests */,
 				1B35C1E122FE3502006CDC0A /* Products */,
 			);
@@ -77,17 +96,39 @@
 				1B35C1EE22FE601D006CDC0A /* ex2.cpp */,
 				1B35C1F122FE60EF006CDC0A /* ex3.cpp */,
 				1B35C1F32300F5B2006CDC0A /* notes.cpp */,
+				1BD98E0223109EB4002ABB73 /* bitwise-font-style.cpp */,
+				1BD98E0323109EB4002ABB73 /* bitwise-font-style.hpp */,
 				1B35C1F42300F5B2006CDC0A /* notes.hpp */,
 				1B35C1F62300FA61006CDC0A /* ex2-1.cpp */,
 				1B13CA7F230CCA0500997E0A /* ex2-2.cpp */,
-				1B84E7E2230F203E00982E0F /* ex2-4.cpp */,
 				1B13CA80230CCA0500997E0A /* ex2-2.hpp */,
 				1B13CA83230CDF5400997E0A /* ex2-3.cpp */,
+				1B84E7E2230F203E00982E0F /* ex2-4.cpp */,
 				1B84E7E3230F25C700982E0F /* ex2-5.cpp */,
 				1B13CA81230CDD4000997E0A /* math.cpp */,
 				1B13CA82230CDD4000997E0A /* math.hpp */,
 			);
 			path = "C++ Tests";
+			sourceTree = "<group>";
+		};
+		1B84E7E8230F348800982E0F /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				1B84E7E5230F335C00982E0F /* ch2exercise1.cpp */,
+				1B84E7E6230F335C00982E0F /* ch2exercise1.hpp */,
+				1B84E7EC230F359600982E0F /* ch2exercise2.cpp */,
+				1B84E7ED230F359600982E0F /* ch2exercise2.hpp */,
+				1B84E7EE230F35A100982E0F /* ch2exercise3.cpp */,
+				1B84E7EF230F35A100982E0F /* ch2exercise3.hpp */,
+				1B84E7F1230F35CF00982E0F /* ch2exercise4.cpp */,
+				1B84E7F2230F35CF00982E0F /* ch2exercise4.hpp */,
+				1B84E7F3230F383200982E0F /* ch2exercise5.cpp */,
+				1B84E7F4230F383200982E0F /* ch2exercise5.hpp */,
+				1B84E7F5230F392500982E0F /* ch2exercise6.cpp */,
+				1B84E7F6230F392500982E0F /* ch2exercise6.hpp */,
+			);
+			name = Chapter2;
+			path = "C++ Tests/Chapter2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

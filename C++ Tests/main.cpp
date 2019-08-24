@@ -17,24 +17,28 @@
 //}
 
 int main() {
-    int answer { 42 };
+//    int answer { 42 };
+//    std::cout << "Hello, World!\n"
+//    << "\"Pop goes the weasel\"\n\a"
+//    << answer
+//    << " is the answer.\n"
+//    << std::endl;
 
-    //    std::cout << "Hello, World!\n"
-    //    << "\"Pop goes the weasel\"\n\a"
-    //    << answer
-    //    << " is the answer.\n"
-    //    << std::endl;
-    
-    //    ex1();
-    //    ex2();
-    //    ex3();
-    //    ex2one();
-    //    ex2two();
-    //    ex2three();
-    //    ex2four();
-    //    ex2five();
-        notes();
-    //    math();
-    
+//    ex1();
+//    ex2();
+//    ex3();
+//    ex2one();
+//    ex2two();
+//    ex2three();
+//    ex2four();
+//    ex2five();
+//    notes();
+//        math();
+//    ch2exercise1();
+//    ch2exercise2();
+//    ch2exercise3();
+//    ch2exercise4();
+//    ch2exercise5();
+//    ch2exercise6();
     return 0;
 }

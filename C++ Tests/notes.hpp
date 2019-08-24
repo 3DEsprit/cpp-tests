@@ -10,5 +10,7 @@
 #define notes_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include <iomanip>
 
 #endif /* notes_hpp */

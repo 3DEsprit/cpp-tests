@@ -23,6 +23,14 @@
 #include "notes.cpp"
 #include "math.cpp"
 
+// Exercises
+#include "Chapter2/ch2exercise1.cpp"
+#include "Chapter2/ch2exercise2.cpp"
+#include "Chapter2/ch2exercise3.cpp"
+#include "Chapter2/ch2exercise4.cpp"
+#include "Chapter2/ch2exercise5.cpp"
+#include "Chapter2/ch2exercise6.cpp"
+
 int ex1();
 int ex2();
 int ex3();
@@ -33,3 +41,10 @@ int ex2four();
 int ex2five();
 int notes();
 int math();
+
+int ch2exercise1();
+int ch2exercise2();
+int ch2exercise3();
+int ch2exercise4();
+int ch2exercise5();
+int ch2exercise6();

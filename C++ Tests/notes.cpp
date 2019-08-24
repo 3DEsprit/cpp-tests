@@ -6,7 +6,6 @@
 //  Copyright © 2019 Dennis. All rights reserved.
 //
 
-#include <iostream>
 #include "notes.hpp"
 
 int notes() {
@@ -136,13 +135,13 @@ int notes() {
     
     char32_t cyrnative {U'я'};
     
-    std::wcout << cyrnative << " " << cyrtwo << " " << cyr << std::endl;
+    std::wcout << std::noshowbase << std::dec << cyrnative << " " << cyrtwo << " " << cyr << std::endl;
     
     // automatic types
     auto m {10};
     auto n {200UL};
     auto pi {3.14159};
     
-    
+
     return 0;
 }
