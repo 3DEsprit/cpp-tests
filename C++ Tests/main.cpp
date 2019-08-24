@@ -40,5 +40,7 @@ int main() {
 //    ch2exercise4();
 //    ch2exercise5();
 //    ch2exercise6();
+    fontstyle();
+
     return 0;
 }

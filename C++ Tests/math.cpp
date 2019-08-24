@@ -21,6 +21,8 @@ int math() {
     double angle {std::atan(distance / height)};
     
     double toe_to_tip {distance / std::sin(angle)};
-    double teo_to_tip {std::sqrt(std::pow(distance,2) + std::pow(height, 2))};
+    double toe_to_tip2 {std::sqrt(std::pow(distance,2) + std::pow(height, 2))};
+    
+    std::cout << "test: " << std::fixed << std::setprecision(2) << height << std::endl;
     return 0;
 }

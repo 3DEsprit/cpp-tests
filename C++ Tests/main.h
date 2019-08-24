@@ -22,6 +22,7 @@
 #include "ex2-5.cpp"
 #include "notes.cpp"
 #include "math.cpp"
+#include "bitwise-font-style.cpp"
 
 // Exercises
 #include "Chapter2/ch2exercise1.cpp"
@@ -48,3 +49,4 @@ int ch2exercise3();
 int ch2exercise4();
 int ch2exercise5();
 int ch2exercise6();
+int fontstyle();
