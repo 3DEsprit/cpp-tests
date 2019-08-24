@@ -1,5 +1,5 @@
 //
-//  ex2-5.cpp
+//  ch2example5.cpp
 //  C++ Tests
 //
 //  Created by Dennis on 2019/08/22.
@@ -9,7 +9,7 @@
 #include <limits>
 #include <iostream>
 
-int ex2five() {
+int ch2example5() {
     std::cout << "The range for type short is from "
         << std::numeric_limits<short>::min() << " to "
         << std::numeric_limits<short>::max() << std::endl;

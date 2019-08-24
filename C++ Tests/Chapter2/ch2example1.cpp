@@ -1,5 +1,5 @@
 //
-//  ex2-1.cpp
+//  example2-1.cpp
 //  C++ Tests
 //
 //  Created by Dennis on 2019/08/11.
@@ -8,7 +8,7 @@
 
 #include <iostream>
 
-int ex2one() {
+int ch2example1() {
     int apple_count { 15 };
     int orange_count { 5 };
     int total_fruit { apple_count + orange_count };

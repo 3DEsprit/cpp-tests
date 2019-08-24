@@ -1,5 +1,5 @@
 //
-//  ex2-3.cpp
+//  ch2example3.cpp
 //  C++ Tests
 //
 //  Created by Dennis on 2019/08/20.
@@ -10,7 +10,7 @@
 #include <cmath>
 #include <iomanip>
 
-int ex2three() {
+int ch2example3() {
     const double fish_factor { 20/0.5 };
 //    const double inches_per_foot { 12.0 };
     const unsigned int inches_per_foot {12};

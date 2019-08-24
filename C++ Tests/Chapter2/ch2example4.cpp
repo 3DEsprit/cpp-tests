@@ -1,5 +1,5 @@
 //
-//  ex2-4.cpp
+//  ch2example4.cpp
 //  C++ Tests
 //
 //  Created by Dennis on 2019/08/22.
@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int ex2four() {
+int ch2example4() {
     const unsigned feet_per_yard {3};
     const unsigned inches_per_foot {12};
     

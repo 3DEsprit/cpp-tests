@@ -6,8 +6,8 @@
 //  Copyright © 2019 Dennis. All rights reserved.
 //
 
-#ifndef ch2exercise3_hpp
-#define ch2exercise3_hpp
+#ifndef ch2_exercise3_hpp
+#define ch2_exercise3_hpp
 
 #include <stdio.h>
 

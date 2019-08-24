@@ -1,17 +1,17 @@
 //
-//  ex2-2.cpp
+//  ch2example2.cpp
 //  C++ Tests
 //
 //  Created by Dennis on 2019/08/20.
 //  Copyright © 2019 Dennis. All rights reserved.
 //
 
-#include "ex2-2.hpp"
+#include "ch2example2.hpp"
 #include <iostream>
 
 using namespace std;
 
-int ex2two()
+int ch2example2()
 {
     unsigned int yards {}, feet {}, inches {};
     
