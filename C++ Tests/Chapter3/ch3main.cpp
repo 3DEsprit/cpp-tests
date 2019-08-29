@@ -14,12 +14,12 @@ int ch3main() {
 //    ch3example1();
 //    ch3example2();
 //    ch3example3();
-    ch3exercise1();
+//    ch3exercise1();
 //    ch3exercise2();
 //    ch3exercise3();
 //    ch3exercise4();
 //    ch3exercise5();
-//    ch3exercise6();
+    ch3exercise6();
     
     return 0;
 }
