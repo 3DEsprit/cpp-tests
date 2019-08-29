@@ -51,6 +51,7 @@
 		1B84E7F4230F383200982E0F /* ch2exercise5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch2exercise5.hpp; sourceTree = "<group>"; };
 		1B84E7F5230F392500982E0F /* ch2exercise6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2exercise6.cpp; sourceTree = "<group>"; };
 		1B84E7F6230F392500982E0F /* ch2exercise6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch2exercise6.hpp; sourceTree = "<group>"; };
+		1BB804842317624F00CD279A /* ch4example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch4example1.cpp; sourceTree = "<group>"; };
 		1BD98E0223109EB4002ABB73 /* bitwise-font-style.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "bitwise-font-style.cpp"; sourceTree = "<group>"; };
 		1BD98E062310B04B002ABB73 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BD98E092310B79D002ABB73 /* ch3example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch3example1.cpp; sourceTree = "<group>"; };
@@ -71,6 +72,9 @@
 		1BD98E2B2311B99B002ABB73 /* ch3exercise4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch3exercise4.cpp; sourceTree = "<group>"; };
 		1BD98E2D2311B9AD002ABB73 /* ch3exercise5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch3exercise5.cpp; sourceTree = "<group>"; };
 		1BD98E2F2311B9BC002ABB73 /* ch3exercise6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch3exercise6.cpp; sourceTree = "<group>"; };
+		1BD98E332313534E002ABB73 /* ch4main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch4main.cpp; sourceTree = "<group>"; };
+		1BD98E342313534E002ABB73 /* ch4main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch4main.hpp; sourceTree = "<group>"; };
+		1BD98E352313535E002ABB73 /* ch4notes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch4notes.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		1B35C1E222FE3502006CDC0A /* C++ Tests */ = {
 			isa = PBXGroup;
 			children = (
+				1BD98E322313533D002ABB73 /* Chapter4 */,
 				1BD98E1B2310BFBA002ABB73 /* Chapter3 */,
 				1B84E7E8230F348800982E0F /* Chapter2 */,
 				1BD98E1A2310BF6B002ABB73 /* Chapter1 */,
@@ -176,6 +181,17 @@
 				1BD98E2F2311B9BC002ABB73 /* ch3exercise6.cpp */,
 			);
 			path = Chapter3;
+			sourceTree = "<group>";
+		};
+		1BD98E322313533D002ABB73 /* Chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+				1BD98E332313534E002ABB73 /* ch4main.cpp */,
+				1BD98E342313534E002ABB73 /* ch4main.hpp */,
+				1BD98E352313535E002ABB73 /* ch4notes.cpp */,
+				1BB804842317624F00CD279A /* ch4example1.cpp */,
+			);
+			path = Chapter4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

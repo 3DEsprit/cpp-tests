@@ -12,14 +12,13 @@
 
 #endif /* main_h */
 
-//#include "bitwise-font-style.cpp"
-
 // Chapters
 #include "Chapter1/ch1main.cpp"
 #include "Chapter2/ch2main.cpp"
 #include "Chapter3/ch3main.cpp"
+#include "Chapter4/ch4main.cpp"
 
 int ch1main();
 int ch2main();
 int ch3main();
-
+int ch4main();
