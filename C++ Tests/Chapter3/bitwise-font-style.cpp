@@ -27,7 +27,7 @@ int fontstyle() {
     std::bitset<8> y(bit_value);
     std::cout << "Shift: " << y << std::endl;
     
-    unsigned char bit_value2 {104}; // 01101000
+    unsigned char bit_value2 {104}; // 0110 1000
     std::bitset<8> a(bit_value2);
     std::cout << "Orig: " << a << std::endl;
     
