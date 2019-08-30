@@ -9,8 +9,9 @@
 #include "ch4main.hpp"
 
 int ch4main() {
-    
     ch4notes();
 //    ch4example1();
+//    ch4example2();
+
     return 0;
 }
