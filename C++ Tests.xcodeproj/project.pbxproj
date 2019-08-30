@@ -52,6 +52,7 @@
 		1B84E7F5230F392500982E0F /* ch2exercise6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2exercise6.cpp; sourceTree = "<group>"; };
 		1B84E7F6230F392500982E0F /* ch2exercise6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch2exercise6.hpp; sourceTree = "<group>"; };
 		1BB804842317624F00CD279A /* ch4example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch4example1.cpp; sourceTree = "<group>"; };
+		1BB8048523189BAF00CD279A /* ch4example2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch4example2.cpp; sourceTree = "<group>"; };
 		1BD98E0223109EB4002ABB73 /* bitwise-font-style.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "bitwise-font-style.cpp"; sourceTree = "<group>"; };
 		1BD98E062310B04B002ABB73 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BD98E092310B79D002ABB73 /* ch3example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch3example1.cpp; sourceTree = "<group>"; };
@@ -190,6 +191,7 @@
 				1BD98E342313534E002ABB73 /* ch4main.hpp */,
 				1BD98E352313535E002ABB73 /* ch4notes.cpp */,
 				1BB804842317624F00CD279A /* ch4example1.cpp */,
+				1BB8048523189BAF00CD279A /* ch4example2.cpp */,
 			);
 			path = Chapter4;
 			sourceTree = "<group>";
@@ -373,6 +375,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4M23HDWUM;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -382,6 +385,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4M23HDWUM;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
