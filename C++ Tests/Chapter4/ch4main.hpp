@@ -13,8 +13,10 @@
 
 #include "ch4notes.cpp"
 #include "ch4example1.cpp"
+#include "ch4example2.cpp"
 
 #endif /* ch4main_hpp */
 
 int ch4notes();
 int ch4example1();
+int ch4example2();
