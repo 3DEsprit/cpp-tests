@@ -14,9 +14,15 @@
 #include "ch4notes.cpp"
 #include "ch4example1.cpp"
 #include "ch4example2.cpp"
+#include "ch4example3.cpp"
+#include "ch4example4.cpp"
+#include "ch4example5.cpp"
 
 #endif /* ch4main_hpp */
 
 int ch4notes();
 int ch4example1();
 int ch4example2();
+int ch4example3();
+int ch4example4();
+int ch4example5();
