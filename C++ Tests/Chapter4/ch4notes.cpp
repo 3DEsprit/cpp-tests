@@ -110,5 +110,26 @@ int ch4notes() {
     
     loan = 2 * income < balance / 2 ? 2 * income : balance / 2;
     
+    int number {2};
+    
+    switch(number) {
+        case 1:
+            std::cout << "Number 1" << std::endl;
+            break;
+        case 2:
+            std::cout << "Number 2" << std::endl;
+            [[fallthrough]];
+        default:
+            std::cout << "No Other numbers" << std::endl;
+            break;
+    }
+    
+    char input {'a'};
+    
+    // initialization statements
+    if(auto lower { static_cast<char>(std::tolower(input)) }; lower >= 'a' && lower <= 'r') {
+        std::cout << "Entered letter '" << lower << '\'' << std::endl;
+    }
+    
     return 0;
 }
