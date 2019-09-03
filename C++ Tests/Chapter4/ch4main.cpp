@@ -17,7 +17,15 @@ int ch4main() {
 //    ch4example5();
 //    ch4example6();
 //    ch4example7();
-    ch4example8();
+//    ch4example8();
+    
+    ch4exercise1();
+//    ch4exercise2();
+//    ch4exercise3();
+//    ch4exercise4();
+//    ch4exercise5();
+//    ch4exercise6();
+//    ch4exercise7();
 
     return 0;
 }
