@@ -82,6 +82,33 @@ int ch4notes() {
     } else {
         std::cout << "badBrace is notequal and obviously alien" << std::endl;
     }
+    
+    // short circuit evaluation
+    int z = 2;
+//    if(z < 0 && (z*z + 632*z == 1268))
+    if(z == 2 || (z*z + 632*z == 1268))
+        std::cout << "Congrats: " << z << " is the correct solution!" << std::endl;
 
+    int age = 21;
+    int balance = 10'000;
+    int income = 25'000;
+    int loan;
+
+    // XOR evaluation
+    if((age > 20) ^ (balance >= 1'000'000))
+        std::cout << "boo" << std::endl;
+
+    // how the above is evaluated
+//    if((age < 20 || balance >= 1'000'000) && !(age < 20 && balance >= 1'000'000))
+    // or
+//    if((age < 20 && balance < 1'000'000) || (age >= 20 && balance >= 1'000'000))
+    
+    // conditonal operator (ternary operator)
+    int a {1}, b {2}, c;
+    
+    c = a > b ? a : b;
+    
+    loan = 2 * income < balance / 2 ? 2 * income : balance / 2;
+    
     return 0;
 }
