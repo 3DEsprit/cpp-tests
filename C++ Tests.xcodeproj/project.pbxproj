@@ -37,6 +37,11 @@
 		1B35C1F32300F5B2006CDC0A /* notes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = notes.cpp; sourceTree = "<group>"; };
 		1B35C1F42300F5B2006CDC0A /* notes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = notes.hpp; sourceTree = "<group>"; };
 		1B35C1F62300FA61006CDC0A /* ch2example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2example1.cpp; sourceTree = "<group>"; };
+		1B395ECB232AC67300BF72B4 /* ch5main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5main.cpp; sourceTree = "<group>"; };
+		1B395ECC232AC67300BF72B4 /* ch5main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch5main.hpp; sourceTree = "<group>"; };
+		1B395ECD232AC68000BF72B4 /* ch5notes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5notes.cpp; sourceTree = "<group>"; };
+		1B395ECE232AC68F00BF72B4 /* ch5example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5example1.cpp; sourceTree = "<group>"; };
+		1B395ECF232AD7B500BF72B4 /* ch5example2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5example2.cpp; sourceTree = "<group>"; };
 		1B84E7E2230F203E00982E0F /* ch2example4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2example4.cpp; sourceTree = "<group>"; };
 		1B84E7E3230F25C700982E0F /* ch2example5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2example5.cpp; sourceTree = "<group>"; };
 		1B84E7E5230F335C00982E0F /* ch2exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2exercise1.cpp; sourceTree = "<group>"; };
@@ -123,6 +128,7 @@
 		1B35C1E222FE3502006CDC0A /* C++ Tests */ = {
 			isa = PBXGroup;
 			children = (
+				1B395ECA232AC65A00BF72B4 /* Chapter5 */,
 				1BD98E322313533D002ABB73 /* Chapter4 */,
 				1BD98E1B2310BFBA002ABB73 /* Chapter3 */,
 				1B84E7E8230F348800982E0F /* Chapter2 */,
@@ -131,6 +137,18 @@
 				1B35C1ED22FE5F1D006CDC0A /* main.h */,
 			);
 			path = "C++ Tests";
+			sourceTree = "<group>";
+		};
+		1B395ECA232AC65A00BF72B4 /* Chapter5 */ = {
+			isa = PBXGroup;
+			children = (
+				1B395ECB232AC67300BF72B4 /* ch5main.cpp */,
+				1B395ECC232AC67300BF72B4 /* ch5main.hpp */,
+				1B395ECD232AC68000BF72B4 /* ch5notes.cpp */,
+				1B395ECE232AC68F00BF72B4 /* ch5example1.cpp */,
+				1B395ECF232AD7B500BF72B4 /* ch5example2.cpp */,
+			);
+			path = Chapter5;
 			sourceTree = "<group>";
 		};
 		1B84E7E8230F348800982E0F /* Chapter2 */ = {
@@ -401,6 +419,7 @@
 		1B35C1E822FE3502006CDC0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4M23HDWUM;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -411,6 +430,7 @@
 		1B35C1E922FE3502006CDC0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4M23HDWUM;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
