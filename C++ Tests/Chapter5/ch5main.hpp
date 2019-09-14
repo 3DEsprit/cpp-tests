@@ -15,10 +15,12 @@
 
 #include "ch5example1.cpp"
 #include "ch5example2.cpp"
+#include "ch5example3.cpp"
 
 int ch5notes();
 
 int ch5example1();
 int ch5example2();
+int ch5example3();
 
 #endif /* ch5main_hpp */
