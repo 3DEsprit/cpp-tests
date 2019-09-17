@@ -139,5 +139,17 @@ int ch5notes() {
     std::cout << "       C_Name: " << c_name << std::endl;
     std::cout << "C_Auto_Vowels: " << c_auto_vowels << std::endl;
     
+    // containers
+    // array template: array<T, N> Type, Nelements
+    std::array<double, 100> values_two;
+    std::array<double, 100> values_explicit {0.5, 1.0, 1.5, 2.0};
+    
+    // array member functions
+    values_two.fill(2);
+    
+    std::cout << values_two[4] << std::endl;
+    
+    std::cout << values_explicit.size() << std::endl;
+    
     return 0;
 }
