@@ -22,6 +22,8 @@
 #include "ch5example7.cpp"
 #include "ch5example8.cpp"
 #include "ch5example9.cpp"
+#include "ch5example10.cpp"
+#include "ch5example11.cpp"
 
 int ch5notes();
 
@@ -34,5 +36,7 @@ int ch5example6();
 int ch5example7();
 int ch5example8();
 int ch5example9();
+int ch5example10();
+int ch5example11();
 
 #endif /* ch5main_hpp */

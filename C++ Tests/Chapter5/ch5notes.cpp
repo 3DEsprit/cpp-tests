@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <array>
+#include <typeinfo>
 
 int ch5notes() {
     // initialize array using junk values
@@ -34,6 +35,8 @@ int ch5notes() {
     double rainfall[12] { 1.1, 2.8, 3.4, 3.7, 2.1, 2.3, 1.8, 0.0, 0.3, 0.9, 0.7, 0.5 };
     double copyrain[size] {};
     
+    // for loops
+    // for(initialization; condition; iteration)
     for(size_t i {}; i < size; ++ i) {
         copyrain[i] = rainfall[i];
     }
@@ -90,6 +93,51 @@ int ch5notes() {
     for(auto x : values) {
         total += x;
     }
+    
+    // while loops
+    // initialization
+    // while(condition) {
+    //   iteration
+    // }
+    
+    // like if statements we want to avoid
+    // adding semicolons to the block
+    // if we do, like so:
+    // while(condition);
+    // will result in the following evaluation
+    // which could result in an infinite loop
+    // while(condition) {}
+    
+    // loop manipulation
+    // move execution to the end of the current
+    // iteration effectively skipping that iteration
+    // continue;
+    
+    // string arrays using c-style string
+    // array terminiated with a null bit
+    // and identifying this array type
+    
+    // array of characters non-string array
+    char vowels[5] { 'a', 'e', 'i', 'o', 'u' };   // 'a', 'e', 'i', 'o', 'u'
+    // c-style string array
+    char c_vowels[6] { 'a', 'e', 'i', 'o', 'u' }; // 'a', 'e', 'i', 'o', 'u', '\0'
+    // create c-string with string literal
+    char name[10] { "Mae West" }; // 'M', 'a', 'e', ' ', 'W', 'e', 's', 't', '\0', '\0'
+    // using magic numbers in this sense still treat as a char array
+    char auto_vowels[] { 'a', 'e', 'i', 'o', 'u' }; // 5 elements
+    // using a string literal expression will result in a c-string
+    char c_name[] { "Mae West" }; // 9 elements
+    // as well as this
+    char c_auto_vowels[] { "aeiou" };
+    
+    // output char arrays with the array variable name
+    // won't work with other array types
+    std::cout << "       Vowels: " << vowels << std::endl;
+    std::cout << "     C_Vowels: " << c_vowels << std::endl;
+    std::cout << "         Name: " << name << std::endl;
+    std::cout << "  Auto_Vowels: " << auto_vowels << std::endl;
+    std::cout << "       C_Name: " << c_name << std::endl;
+    std::cout << "C_Auto_Vowels: " << c_auto_vowels << std::endl;
     
     return 0;
 }

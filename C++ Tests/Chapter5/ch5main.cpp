@@ -20,7 +20,9 @@ int ch5main() {
 //    ch5example6();
 //    ch5example7();
 //    ch5example8();
-    ch5example9();
+//    ch5example9();
+//    ch5example10();
+    ch5example11();
     
     return 0;
 }
