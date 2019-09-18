@@ -29,6 +29,15 @@
 #include "ch5example14.cpp"
 #include "ch5example15.cpp"
 
+#include "ch5exercise1.cpp"
+#include "ch5exercise2.cpp"
+#include "ch5exercise3.cpp"
+#include "ch5exercise4.cpp"
+#include "ch5exercise5.cpp"
+#include "ch5exercise6.cpp"
+#include "ch5exercise7.cpp"
+#include "ch5exercise8.cpp"
+
 int ch5notes();
 
 int ch5example1();
@@ -46,5 +55,14 @@ int ch5example12();
 int ch5example13();
 int ch5example14();
 int ch5example15();
+
+int ch5exercise1();
+int ch5exercise2();
+int ch5exercise3();
+int ch5exercise4();
+int ch5exercise5();
+int ch5exercise6();
+int ch5exercise7();
+int ch5exercise8();
 
 #endif /* ch5main_hpp */

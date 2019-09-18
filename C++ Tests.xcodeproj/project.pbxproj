@@ -85,6 +85,14 @@
 		1BD637982331808500BBA5B3 /* ch5example13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5example13.cpp; sourceTree = "<group>"; };
 		1BD637992331818100BBA5B3 /* ch5example14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5example14.cpp; sourceTree = "<group>"; };
 		1BD6379A2332D56F00BBA5B3 /* ch5example15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5example15.cpp; sourceTree = "<group>"; };
+		1BD6379E2332D7BF00BBA5B3 /* ch5exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise1.cpp; sourceTree = "<group>"; };
+		1BD6379F2332D7CC00BBA5B3 /* ch5exercise2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise2.cpp; sourceTree = "<group>"; };
+		1BD637A02332D7DC00BBA5B3 /* ch5exercise3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise3.cpp; sourceTree = "<group>"; };
+		1BD637A12332D7EC00BBA5B3 /* ch5exercise4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise4.cpp; sourceTree = "<group>"; };
+		1BD637A22332D7F900BBA5B3 /* ch5exercise5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise5.cpp; sourceTree = "<group>"; };
+		1BD637A32332D80800BBA5B3 /* ch5exercise6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise6.cpp; sourceTree = "<group>"; };
+		1BD637A42332D81500BBA5B3 /* ch5exercise7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise7.cpp; sourceTree = "<group>"; };
+		1BD637A52332D82700BBA5B3 /* ch5exercise8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise8.cpp; sourceTree = "<group>"; };
 		1BD98E0223109EB4002ABB73 /* bitwise-font-style.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "bitwise-font-style.cpp"; sourceTree = "<group>"; };
 		1BD98E062310B04B002ABB73 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BD98E092310B79D002ABB73 /* ch3example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch3example1.cpp; sourceTree = "<group>"; };
@@ -173,6 +181,14 @@
 				1BD637982331808500BBA5B3 /* ch5example13.cpp */,
 				1BD637992331818100BBA5B3 /* ch5example14.cpp */,
 				1BD6379A2332D56F00BBA5B3 /* ch5example15.cpp */,
+				1BD6379E2332D7BF00BBA5B3 /* ch5exercise1.cpp */,
+				1BD6379F2332D7CC00BBA5B3 /* ch5exercise2.cpp */,
+				1BD637A02332D7DC00BBA5B3 /* ch5exercise3.cpp */,
+				1BD637A12332D7EC00BBA5B3 /* ch5exercise4.cpp */,
+				1BD637A22332D7F900BBA5B3 /* ch5exercise5.cpp */,
+				1BD637A32332D80800BBA5B3 /* ch5exercise6.cpp */,
+				1BD637A42332D81500BBA5B3 /* ch5exercise7.cpp */,
+				1BD637A52332D82700BBA5B3 /* ch5exercise8.cpp */,
 			);
 			path = Chapter5;
 			sourceTree = "<group>";

@@ -26,7 +26,16 @@ int ch5main() {
 //    ch5example12();
 //    ch5example13();
 //    ch5example14();
-    ch5example15();
+//    ch5example15();
+    
+    ch5exercise1();
+//    ch5exercise2();
+//    ch5exercise3();
+//    ch5exercise4();
+//    ch5exercise5();
+//    ch5exercise6();
+//    ch5exercise7();
+//    ch5exercise8();
     
     return 0;
 }
