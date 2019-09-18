@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <array>
 #include <typeinfo>
+#include <vector>
 
 int ch5notes() {
     // initialize array using junk values
@@ -150,6 +151,35 @@ int ch5notes() {
     std::cout << values_two[4] << std::endl;
     
     std::cout << values_explicit.size() << std::endl;
+    
+    // vector containers
+    // create a vector without any values/elements
+    std::vector<double> vector_values;
+    // add an element and allocate memory dynamically
+    vector_values.push_back(3.1415); // add to end of vector
+    
+    // create with a predefined amount of elements
+    std::vector<double> vector_values_two(20);
+    
+    // create vector with 20 long values of 99
+    std::vector<long> number(20, 99L);
+    
+    // specify initial values like an array
+    std::vector<long> primes { 2, 3, 5, 7, 11, 13, 17, 19 };
+    
+    // re-initialize using the assign function
+    number.assign(99, 20L); // 99 long values of 20
+    number.assign({99, 20L}); // two long values, 99 and 20
+    
+    std::vector<int> data(100, 99);
+    // remove all elements from a vector with clear function
+    data.clear();
+    
+    data.assign(100, 99);
+    // remove last element from a vector with pop_back function
+    data.pop_back(); // 99 elements of 99
+    
+    
     
     return 0;
 }
