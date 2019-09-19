@@ -8,6 +8,8 @@
 //
 
 #include <stdio.h>
+#include <iostream>
+#include <cctype>
 
 int ch5example10() {
     const int max_length {100};
