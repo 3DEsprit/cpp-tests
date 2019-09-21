@@ -34,8 +34,8 @@ int ch5main() {
 //    ch5exercise4();
 //    ch5exercise5();
 //    ch5exercise6();
-    ch5exercise7();
-//    ch5exercise8();
+//    ch5exercise7();
+    ch5exercise8();
     
     return 0;
 }
