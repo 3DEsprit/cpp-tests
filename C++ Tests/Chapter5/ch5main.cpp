@@ -32,8 +32,8 @@ int ch5main() {
 //    ch5exercise2();
 //    ch5exercise3();
 //    ch5exercise4();
-    ch5exercise5();
-//    ch5exercise6();
+//    ch5exercise5();
+    ch5exercise6();
 //    ch5exercise7();
 //    ch5exercise8();
     
