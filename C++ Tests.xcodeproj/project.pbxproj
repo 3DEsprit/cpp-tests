@@ -93,6 +93,10 @@
 		1BD637A32332D80800BBA5B3 /* ch5exercise6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise6.cpp; sourceTree = "<group>"; };
 		1BD637A42332D81500BBA5B3 /* ch5exercise7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise7.cpp; sourceTree = "<group>"; };
 		1BD637A52332D82700BBA5B3 /* ch5exercise8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5exercise8.cpp; sourceTree = "<group>"; };
+		1BD637A72336B63900BBA5B3 /* ch6main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6main.cpp; sourceTree = "<group>"; };
+		1BD637A82336B63900BBA5B3 /* ch6main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ch6main.hpp; sourceTree = "<group>"; };
+		1BD637A92336B65F00BBA5B3 /* ch6example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6example1.cpp; sourceTree = "<group>"; };
+		1BD637AA2336B6A500BBA5B3 /* ch6notes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6notes.cpp; sourceTree = "<group>"; };
 		1BD98E0223109EB4002ABB73 /* bitwise-font-style.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "bitwise-font-style.cpp"; sourceTree = "<group>"; };
 		1BD98E062310B04B002ABB73 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BD98E092310B79D002ABB73 /* ch3example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch3example1.cpp; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 		1B35C1E222FE3502006CDC0A /* C++ Tests */ = {
 			isa = PBXGroup;
 			children = (
+				1BD637A62336B60000BBA5B3 /* Chapter6 */,
 				1B395ECA232AC65A00BF72B4 /* Chapter5 */,
 				1BD98E322313533D002ABB73 /* Chapter4 */,
 				1BD98E1B2310BFBA002ABB73 /* Chapter3 */,
@@ -222,6 +227,17 @@
 				1B84E7F6230F392500982E0F /* ch2exercise6.hpp */,
 			);
 			path = Chapter2;
+			sourceTree = "<group>";
+		};
+		1BD637A62336B60000BBA5B3 /* Chapter6 */ = {
+			isa = PBXGroup;
+			children = (
+				1BD637A72336B63900BBA5B3 /* ch6main.cpp */,
+				1BD637A82336B63900BBA5B3 /* ch6main.hpp */,
+				1BD637A92336B65F00BBA5B3 /* ch6example1.cpp */,
+				1BD637AA2336B6A500BBA5B3 /* ch6notes.cpp */,
+			);
+			path = Chapter6;
 			sourceTree = "<group>";
 		};
 		1BD98E1A2310BF6B002ABB73 /* Chapter1 */ = {

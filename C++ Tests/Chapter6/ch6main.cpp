@@ -1,0 +1,18 @@
+//
+//  ch6main.cpp
+//  C++ Tests
+//
+//  Created by Dennis on 2019/09/21.
+//  Copyright © 2019 Dennis. All rights reserved.
+//
+
+#include "ch6main.hpp"
+
+int ch6main() {
+    
+    ch6notes();
+    
+//    ch6example1();
+
+    return 0;
+}

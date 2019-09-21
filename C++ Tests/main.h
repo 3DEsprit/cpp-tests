@@ -18,9 +18,11 @@
 #include "Chapter3/ch3main.cpp"
 #include "Chapter4/ch4main.cpp"
 #include "Chapter5/ch5main.cpp"
+#include "Chapter6/ch6main.cpp"
 
 int ch1main();
 int ch2main();
 int ch3main();
 int ch4main();
 int ch5main();
+int ch6main();
