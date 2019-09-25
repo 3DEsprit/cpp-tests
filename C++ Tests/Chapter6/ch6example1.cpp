@@ -7,8 +7,12 @@
 //
 
 #include <stdio.h>
+#include <iostream>
 
-int ch6example() {
+int ch6example1() {
+    // show the size of a pointer versus the variable
+    std::cout << sizeof(double) << " > " << sizeof(char) << std::endl;
+    std::cout << sizeof(double*) << " == " << sizeof(char*) << std::endl;
     
     return 0;
 }
