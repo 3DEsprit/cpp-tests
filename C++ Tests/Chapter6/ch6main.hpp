@@ -14,10 +14,12 @@
 #include "ch6notes.cpp"
 
 #include "ch6example1.cpp"
+#include "ch6example2.cpp"
 
 #endif /* ch6main_hpp */
 
 int ch6notes();
 
 int ch6example1();
+int ch6example2();
 
