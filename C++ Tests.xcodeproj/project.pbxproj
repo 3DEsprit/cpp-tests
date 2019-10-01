@@ -65,6 +65,7 @@
 		1BA66ECE233C0F7F00F10EC0 /* ch6example2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6example2.cpp; sourceTree = "<group>"; };
 		1BA66ECF2341A4E800F10EC0 /* ch6example3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6example3.cpp; sourceTree = "<group>"; };
 		1BA66ED02342DB2A00F10EC0 /* ch6example4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6example4.cpp; sourceTree = "<group>"; };
+		1BA66ED12342EC1100F10EC0 /* ch6example5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6example5.cpp; sourceTree = "<group>"; };
 		1BB804842317624F00CD279A /* ch4example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch4example1.cpp; sourceTree = "<group>"; };
 		1BB8048523189BAF00CD279A /* ch4example2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch4example2.cpp; sourceTree = "<group>"; };
 		1BB804872319C72400CD279A /* ch4example3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch4example3.cpp; sourceTree = "<group>"; };
@@ -241,6 +242,7 @@
 				1BA66ECE233C0F7F00F10EC0 /* ch6example2.cpp */,
 				1BA66ECF2341A4E800F10EC0 /* ch6example3.cpp */,
 				1BA66ED02342DB2A00F10EC0 /* ch6example4.cpp */,
+				1BA66ED12342EC1100F10EC0 /* ch6example5.cpp */,
 				1BD637AA2336B6A500BBA5B3 /* ch6notes.cpp */,
 			);
 			path = Chapter6;
