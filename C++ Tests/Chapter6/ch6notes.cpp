@@ -99,5 +99,36 @@ int ch6notes() {
     // different goes outside the scope of the pointer address
     std::cout << "Diff: " << diff << std::endl;
     
+    // free store initialization
+    double* pvalue {};
+    pvalue = new double; // return free store memory address
+    
+    *pvalue = 3.14;
+    
+    // allocate and initialize
+    pvalue = new double { 3.14 };
+    
+    // allocate initialize and add pointer
+    double* pvalue2 { new double {3.14} };
+    
+    // allocate initialize and point to double with 0.0
+    double* pvalue3 { new double {} };
+    
+    // release a value
+    delete pvalue;
+    
+    // delete leaves a dangling pointer so reset
+    pvalue = nullptr;
+    
+    // dynamic allocation of arrays
+    double* data {new double[100]};
+    int* one_two_three{new int[3] {1, 2, 3}};
+    float* fdata{new float[20] {.1f, .2f}};
+//    int* one_two_three {new int[] {1, 2, 3}}; // won't work
+    
+    // remove array from free store
+    delete[] data;
+    data = nullptr;
+    
     return 0;
 }
