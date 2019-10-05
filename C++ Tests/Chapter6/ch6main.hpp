@@ -19,6 +19,7 @@
 #include "ch6example4.cpp"
 #include "ch6example5.cpp"
 #include "ch6example6.cpp"
+#include "ch6example7.cpp"
 
 #endif /* ch6main_hpp */
 
@@ -30,3 +31,4 @@ int ch6example3();
 int ch6example4();
 int ch6example5();
 int ch6example6();
+int ch6example7();

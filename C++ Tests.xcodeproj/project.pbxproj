@@ -50,6 +50,12 @@
 		1B395ED5232C851C00BF72B4 /* ch5example8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch5example8.cpp; sourceTree = "<group>"; };
 		1B58ACC123441FA70036A714 /* ch6exercise6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6exercise6.cpp; sourceTree = "<group>"; };
 		1B58ACC223441FCF0036A714 /* ch6example6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6example6.cpp; sourceTree = "<group>"; };
+		1B58ACC3234827520036A714 /* ch6example7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6example7.cpp; sourceTree = "<group>"; };
+		1B58ACC4234831C50036A714 /* ch6exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6exercise1.cpp; sourceTree = "<group>"; };
+		1B58ACC5234831D20036A714 /* ch6exercise2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6exercise2.cpp; sourceTree = "<group>"; };
+		1B58ACC6234832230036A714 /* ch6exercise3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6exercise3.cpp; sourceTree = "<group>"; };
+		1B58ACC7234832330036A714 /* ch6exercise4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6exercise4.cpp; sourceTree = "<group>"; };
+		1B58ACC8234832440036A714 /* ch6exercise5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch6exercise5.cpp; sourceTree = "<group>"; };
 		1B84E7E2230F203E00982E0F /* ch2example4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2example4.cpp; sourceTree = "<group>"; };
 		1B84E7E3230F25C700982E0F /* ch2example5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2example5.cpp; sourceTree = "<group>"; };
 		1B84E7E5230F335C00982E0F /* ch2exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ch2exercise1.cpp; sourceTree = "<group>"; };
@@ -246,6 +252,12 @@
 				1BA66ED02342DB2A00F10EC0 /* ch6example4.cpp */,
 				1BA66ED12342EC1100F10EC0 /* ch6example5.cpp */,
 				1B58ACC223441FCF0036A714 /* ch6example6.cpp */,
+				1B58ACC3234827520036A714 /* ch6example7.cpp */,
+				1B58ACC4234831C50036A714 /* ch6exercise1.cpp */,
+				1B58ACC5234831D20036A714 /* ch6exercise2.cpp */,
+				1B58ACC6234832230036A714 /* ch6exercise3.cpp */,
+				1B58ACC7234832330036A714 /* ch6exercise4.cpp */,
+				1B58ACC8234832440036A714 /* ch6exercise5.cpp */,
 				1B58ACC123441FA70036A714 /* ch6exercise6.cpp */,
 				1BD637AA2336B6A500BBA5B3 /* ch6notes.cpp */,
 			);
