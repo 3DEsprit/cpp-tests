@@ -10,7 +10,7 @@
 
 int ch6main() {
     
-//    ch6notes();
+    ch6notes();
     
 //    ch6example1();
 //    ch6example2();
@@ -18,7 +18,7 @@ int ch6main() {
 //    ch6example4();
 //    ch6example5();
 //    ch6example6();
-    ch6example7();
+//    ch6example7();
 
     return 0;
 }

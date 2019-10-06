@@ -7,6 +7,11 @@
 //
 
 #include <stdio.h>
+#include <iomanip>
+#include <array>
+#include <memory>
+#include <vector>
+#include <cctype>
 
 int ch6notes() {
     
@@ -214,6 +219,59 @@ int ch6notes() {
     std::cout << *pdata3 << std::endl;
     
     // weak_ptr<T>
+    
+    // references
+    double d_data = 50.0f;
+//    double* raw_data = &d_data;
+    // create a reference variable that acts
+    // like an alias to the value
+    double& rdata {d_data};
+    
+    rdata += 2.5;
+    
+    std::cout << rdata << std::endl;
+    
+    double* rdata1 {&rdata};  // 2 pointers to the address
+    double* rdata2 {&d_data}; // rdata2 == rdata1
+    
+    // how to add to the value
+    *rdata1 += 2.5;
+    
+    std::cout << rdata << std::endl;
+    
+    // dual-reference pointer
+    double other_data = 5.0;
+    rdata = other_data; // assign value of other_data to d_data (through rdata1 and rdata)
+    
+    d_data = other_data; // assign the value of other to d_data (directly)
+    
+    rdata1 = &other_data; // make rdata1 point to other_data
+    
+    double* const rdata3 {&d_data}; // const pointer containing the addr of d_data
+    
+    // see that both values reference the same value but have different referenced addresses
+    std::cout << d_data << " " << &d_data << " " << *rdata1 << " " << &rdata1 << std::endl;
+    
+    // const references similar to "const" pointer-to-const
+    const double& const_ref { d_data };
+    
+//    const_ref *= 2; // illegal attempt to modify data through reference-to-const
+    
+    // range based for loops using references
+    double temperatures[] { 45.5, 50.0, 48.2, 57.0, 63.8 };
+    const double F2C {5.0/9.0};
+    
+    // unlike non-referenced loop variables, which makes a copy of the value
+    // the reference allows you to access and modify the element value
+    for (auto& t : temperatures) {
+        t = (t - 32.0) * F2C;
+    }
+    
+    // less terse but shows this ability
+    for(auto& t : temperatures) {
+        t -= 32.0;
+        t *= F2C;
+    }
     
     return 0;
 }
