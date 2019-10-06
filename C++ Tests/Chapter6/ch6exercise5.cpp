@@ -7,3 +7,9 @@
 //
 
 #include <stdio.h>
+
+ch6exercise5() {
+    // repeat exercise 3
+        // use smart pointer to store array
+        // *if this was not already the way it was done
+}

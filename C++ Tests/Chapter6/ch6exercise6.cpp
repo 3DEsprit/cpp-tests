@@ -9,5 +9,6 @@
 #include <stdio.h>
 
 int ch6exercise6() {
-    
+    // repeat exercise 4
+    // replace all raw pointers with smart pointers
 }
